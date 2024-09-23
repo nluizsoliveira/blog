@@ -1,0 +1,128 @@
+#aboutRoot{
+    color: var(--black);
+    font-size: 10px;
+}
+
+span{
+    padding-bottom: 1.5px;
+}
+
+h1{
+    font-size: 24px;
+    font-weight: bold;
+}
+
+h2{
+    font-size: 18px;
+    font-weight: bold;
+    margin-bottom: 5px;
+    margin-top: 2px;
+}
+
+#avatarTitlesWrapper{
+    padding-top: 10px;
+    display: flex;
+    align-items: center;
+    justify-content:flex-start;
+    font-size: 15px;
+}
+
+#avatar{
+    width: 100px;
+    height: 100px;
+    border: 3px solid var(--orange);
+    border-radius: 50%;
+    margin-right: 5px;
+}
+
+#titles{
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    margin-left: 5px;
+}
+
+.title{
+    margin: 10px 0px;
+}
+
+.highlight{
+    color: var(--orange);
+    font-weight: bold;
+}
+
+#findmeWrapper{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: center;
+    width: 350px;
+}
+.findmeItem{
+    width: 150px;
+    display: flex;
+    align-items: center;
+    margin-right: 5px;
+}
+
+.logo{
+    width: 15px;
+    margin-right: 5px;
+}
+.listWrapper{
+    display: flex;
+    flex-direction: column;
+}
+
+bold{
+    font-weight: bold;
+}
+#detail{
+    display: flex;
+    justify-content: flex-end;
+}
+
+@media only screen and (min-width: 800px) {
+    #aboutRoot{
+        font-size: 14px;
+    }
+    h1{
+        font-size: 40px;
+    }
+    h2{
+        font-size: 24px;
+    }
+
+    #avatarTitlesWrapper{
+        font-size: 26px;    
+    }
+
+    #avatar{
+        width: 200px;
+        height: 200px;
+    }
+
+    #findmeWrapper{
+        flex-wrap:nowrap
+    }
+
+    .findmeItem{
+        width: auto;
+    }
+}
+
+@media only screen and (min-width: 1200px) {
+    #aboutRoot{
+        font-size: 16px;
+    }
+    h1{
+        font-size: 44px;
+    }
+    h2{
+        font-size: 30px;
+    }
+
+    #avatarTitlesWrapper{
+        font-size: 26px;    
+    }
+}

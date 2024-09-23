@@ -1,0 +1,23 @@
+{
+  "name": "blog",
+  "version": "1.0.0",
+  "description": "My personal blog",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/nluizsoliveira/blog.git"
+  },
+  "author": "nluizsoliveira",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/nluizsoliveira/blog/issues"
+  },
+  "homepage": "https://github.com/nluizsoliveira/blog#readme",
+  "dependencies": {
+    "express": "^4.21.0"
+  }
+}
